@@ -2,7 +2,7 @@ import bubbleSort from '../sorts/bubbleSort'
 import mergeSort from '../sorts/mergeSort'
 import generate from '../data/generate'
 
-for( let size = 10; size <= 100000; size *= 10 ) {
+for( let size = 10; size <= 1000000; size *= 10 ) {
   console.log( `********** DATASET SIZE ${size} **********`)
   const dataset = generate( size )
 
